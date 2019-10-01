@@ -1,5 +1,5 @@
 /*
-Função= calcular o auento de um funcionario
+Função= calcular do aumento de um funcionario
 Nome= joão vitor dalto ruiz
 Data De Criação=28/09/2019
 */
