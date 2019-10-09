@@ -1,25 +1,19 @@
 /*
-Função= ler um numero e identificar se o numero e positivo, negativo ou neutro
-Nome= joão vitor dalto ruiz
-Data De Criação=06/10/2019
+Função= ler um numero, se ele for maior que 5 e menor que 20, exiba seu cubo
+Nome= joao vitor dalto ruiz
+Data de criação=06/10/2019
 */
 
-#include <stdio.h>
-#include <locale.h>
+#include<stdio.h>
+#include<locale.h>
 
 int main(){
 	setlocale(LC_ALL,"Portuguese");
-	float numero=0;	
-	printf("Insira o numero \n");
-	scanf("%i", &numero);
-	if(numero>0){
-		printf("seu numero é positivo");
-	}else{ if(numero==0){
-		printf("seu numero é 0, ou seja, neutro");
-	} else{
-		printf("seu numero é negativo");
+	float numero=0;
+	printf("insira o numero: \n");
+	scanf("%f", &numero);
+	if(numero>5 and numero<20){
+		numero= numero*numero*numero;
 	}
-	}
-	return 0 ;
-	
+	printf("O numero modificado ou não é %f",numero);
 }
